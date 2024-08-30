@@ -1,0 +1,57 @@
+.btn {
+    color: #ffffff;
+    background-color: #305cde;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px #66666666;
+}
+
+.btn:hover {
+    background-color: #59b5f7;
+}
+
+.flex {
+    display: flex;
+
+}
+.jc-start {
+    justify-content: start;
+}
+
+.jc-end {
+    justify-content: end;
+
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
+.jc-around {
+    justify-content: space-around;
+}
+
+.jc-evenly {
+    justify-content: space-evenly;
+}
+
+.ai-start {
+    align-items: start;
+}
+
+.ai-end {
+    align-items: end;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ai-baseline {
+    align-items: baseline;
+}
+
+.ai-stretch {
+    align-items: stretch;
+}
