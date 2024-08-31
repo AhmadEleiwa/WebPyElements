@@ -1,7 +1,7 @@
 from typing import Any
 from UI.Style import Style
 from typing import TypedDict
-
+from UI.Style import *
 
 class ClassName:
     def __init__(self, clasName) -> None:
@@ -11,6 +11,8 @@ class ClassName:
 class Property(TypedDict):
     className:ClassName
     style:Style
+    width:str
+    flexBox:FlexBox
 class UIComponent:
     def __init__(self,component:str,voidElement:bool, child,**args) -> None:
         self.component:str  = component
